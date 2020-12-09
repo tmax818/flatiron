@@ -31,7 +31,11 @@ let newdata = data.forEach(d => {
     let a = document.createElement('a')
     let p = document.createElement('p')
     a.innerHTML = d.slug
-    a.href = `https://github.com/learn-co-curriculum/${d.slug}`
+    if (d.lab){ 
+        a.href = `https://github.com/learn-co-students/${d.slug}`} 
+        else {
+        a.href = `https://github.com/learn-co-curriculum/${d.slug}`
+    }
     p.appendChild(a)
     div.appendChild(p)
     console.log(a)
