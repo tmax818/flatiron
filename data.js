@@ -22,24 +22,3 @@ const data = [
     {id: 20, slug: "variable-readme", lab: false },
 ]
 
-let anchor = document.createElement('a');
-let div = document.getElementById('root');
-
-
-let newdata = data.forEach(d => {
-    console.log(d)
-    let a = document.createElement('a')
-    let p = document.createElement('p')
-    a.innerHTML = d.slug
-    if (d.lab){ 
-        a.href = `https://github.com/learn-co-students/${d.slug}`
-        a.innerHTML += " (LAB)"
-    }
-        else {
-        a.href = `https://github.com/learn-co-curriculum/${d.slug}`
-    }
-    p.appendChild(a)
-    div.appendChild(p)
-    console.log(a)
-})
-    
