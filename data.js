@@ -24,7 +24,7 @@ const data = [
 
 let anchor = document.createElement('a');
 let div = document.getElementById('root');
-let ul = document.createElement('ul')
+
 
 let newdata = data.forEach(d => {
     console.log(d)
@@ -32,7 +32,9 @@ let newdata = data.forEach(d => {
     let p = document.createElement('p')
     a.innerHTML = d.slug
     if (d.lab){ 
-        a.href = `https://github.com/learn-co-students/${d.slug}`} 
+        a.href = `https://github.com/learn-co-students/${d.slug}`
+        a.innerHTML += " (LAB)"
+    }
         else {
         a.href = `https://github.com/learn-co-curriculum/${d.slug}`
     }
