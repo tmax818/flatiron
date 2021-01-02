@@ -21,4 +21,7 @@ export const data = [
     {id: 19, title: "Reading Error Messages",  link: "ruby-lecture-reading-error-messages-v-000", lab: true },
     {id: 20, title: "About Variable Assignment", link: "variable-readme", lab: false },
     {id: 21, title: "Variable Assignment Lab", link: "ruby-variable-assignment-v-000", lab: true },
+    {id: 22, title: "Ruby Data Types", link: "data-types-readme", lab: false },
+    {id: 23, title: "Array Basics", link: "array-readme-qualifying", lab: false },
+    {id: 24, title: "Tic Tac Toe Board", link: "ttt-2-board-rb-v-000", lab: true },
 ]
