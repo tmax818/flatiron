@@ -1,7 +1,9 @@
 const data = [
+    //Welcome
     {id: 0, title: "Welcome To Learn", link: "welcome-to-learn-verified", lab: false },
     {id: 1, title: "Navigating Curriculum On Learn", link: "prework-intro-navigating-curriculum-on-learn-ide", lab: false },
     {id: 2, title: "Ask A Question", link: "prework-intro-ask-a-question", lab: false },
+    //Git and GitHub
     {id: 3, title: "Introduction To Version Control", link: "git-version-control-introduction-to-version-control", lab: false },
     {id: 4, title: "Git Version Control Basics", link: "git-version-control-git-basics", lab: false },
     {id: 5, title: "Getting Code With Git ", link: "git-version-control-getting-code-with-git", lab: false },
@@ -13,6 +15,7 @@ const data = [
     {id: 11, title: "Git Collaboration Quiz",  link: "git-collaboration-quiz", lab: false },
     {id: 12, title: "Git Basics Quiz",  link: "git-github-learn-quiz", lab: false },
     {id: 13, title: "TDD Rspec And Learn",  link: "intro-to-tdd-rspec-and-learn-v-000", lab: true },
+    //Intro to Ruby Dev
     {id: 14, title: "Intro to Tic Tac Toe",  link: "intro-to-tic-tac-toe-rb", lab: false },
     {id: 15, title: "MINSWAN- Yukihuro Matsumoto",  link: "matz-readme", lab: false },
     {id: 16, title: "What is a Program?",  link: "ruby-lecture-intro-what-is-a-program", lab: false },
