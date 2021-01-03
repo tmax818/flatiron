@@ -1,4 +1,4 @@
-export const data = [
+const data = [
     {id: 0, title: "Welcome To Learn", link: "welcome-to-learn-verified", lab: false },
     {id: 1, title: "Navigating Curriculum On Learn", link: "prework-intro-navigating-curriculum-on-learn-ide", lab: false },
     {id: 2, title: "Ask A Question", link: "prework-intro-ask-a-question", lab: false },
@@ -25,3 +25,5 @@ export const data = [
     {id: 23, title: "Array Basics", link: "array-readme-qualifying", lab: false },
     {id: 24, title: "Tic Tac Toe Board", link: "ttt-2-board-rb-v-000", lab: true },
 ]
+
+module.exports = data
