@@ -11,7 +11,7 @@ const lectures = fs.createWriteStream("./lectures.md")
 
 data.map(el => { 
     if(el.lab){
-        labs.write(` - [${el.title}](labs/${el.link})`)
+        labs.write(` - [${el.title}](labs/${el.link}/README.md)`)
         labs.write(` - [link](https://github.com/learn-co-students/${el.link})\n`)
     } else {
         lectures.write(` - [${el.title}](lectures/${el.link}/README.md)\n`)

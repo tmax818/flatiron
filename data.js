@@ -24,6 +24,8 @@ const data = [
     {id: 22, title: "Ruby Data Types", link: "data-types-readme", lab: false },
     {id: 23, title: "Array Basics", link: "array-readme-qualifying", lab: false },
     {id: 24, title: "Tic Tac Toe Board", link: "ttt-2-board-rb-v-000", lab: true },
+    {id: 25, title: "Intro To Tdd Rspec And Learn", link: "intro-to-tdd-rspec-and-learn-v-000", lab: true },
+    {id: 26, title: "Intro To Methods", link: "ruby-methods-readme-v-000", lab: true },
 ]
 
 module.exports = data
