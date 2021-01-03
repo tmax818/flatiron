@@ -1,4 +1,4 @@
-export const lessons = [
+const lessons = [
   {
     id: 0,
     title: "Welcome To Learn",
